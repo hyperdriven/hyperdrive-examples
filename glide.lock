@@ -1,0 +1,12 @@
+hash: ac1d8b3e8db2941c36ef0fe278a3957634d46c1cfabd7b3dd3fc527e7c048cff
+updated: 2017-03-03T18:05:23.992476612-06:00
+imports:
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/handlers
+  version: 3a5767ca75ece5f7f1440b1d16975247f8d8b221
+- name: github.com/gorilla/mux
+  version: 392c28fe23e1c45ddba891b0320b3b5df220beea
+- name: github.com/hyperdriven/hyperdrive
+  version: 2aa6329ec8f3cc0100034af70c68f5cf6a6cb62c
+testImports: []

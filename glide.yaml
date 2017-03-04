@@ -1,0 +1,6 @@
+package: github.com/hyperdriven/hyperdrive-examples
+import:
+- package: github.com/hyperdriven/hyperdrive
+  version: master
+- package: github.com/gorilla/handlers
+  version: ^1.2.0
