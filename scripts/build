@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+set -ex
+rm -rf ./bin/examples
+go build -o ./bin/examples ./main.go
