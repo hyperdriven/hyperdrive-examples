@@ -30,7 +30,7 @@ func (e *PanicEndpoint) Get(rw http.ResponseWriter, r *http.Request) {
 var PanicExample = &PanicEndpoint{hyperdrive.Endpoint{"Panic Endpoint", "This example tests panic recovery.", "/panic"}}
 
 func main() {
-	api := hyperdrive.NewAPI()
+	api := hyperdrive.NewAPI("Example API", "Example API Description")
 	api.AddEndpoint(Example)
 	api.AddEndpoint(PanicExample)
 	api.Start()

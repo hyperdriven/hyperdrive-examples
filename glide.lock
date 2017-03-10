@@ -1,5 +1,5 @@
-hash: 9032350b06bc0b3071c4e75932fba6c6d59ed9bf90da874926401729705d62ad
-updated: 2017-03-04T20:36:43.573387171-06:00
+hash: 74934c78db73f97fe48d9150ccf72f4240215d192a849ece5c4ebf51d1e6702e
+updated: 2017-03-10T16:27:50.056055383-06:00
 imports:
 - name: github.com/caarlos0/env
   version: d0de832ed2fbc4e7bfaa30ab5cf0b3417d15f529
@@ -10,5 +10,5 @@ imports:
 - name: github.com/gorilla/mux
   version: 392c28fe23e1c45ddba891b0320b3b5df220beea
 - name: github.com/hyperdriven/hyperdrive
-  version: f3687c021272cd990d642ca645dba69edc89b36c
+  version: 2f37838eec608d2a4b4896eeafdf9961ad9fce3b
 testImports: []
