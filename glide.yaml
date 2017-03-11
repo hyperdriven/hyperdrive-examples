@@ -1,4 +1,4 @@
 package: github.com/hyperdriven/hyperdrive-examples
 import:
 - package: github.com/hyperdriven/hyperdrive
-  version: v0.0.3
+  version: master

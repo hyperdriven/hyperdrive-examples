@@ -1,5 +1,5 @@
-hash: 74934c78db73f97fe48d9150ccf72f4240215d192a849ece5c4ebf51d1e6702e
-updated: 2017-03-10T16:27:50.056055383-06:00
+hash: 9f720a638e12a27f5991eb3f31d23e4e6685d7abaf4b2103d5dcd80ea234e624
+updated: 2017-03-11T17:06:17.008621147-06:00
 imports:
 - name: github.com/caarlos0/env
   version: d0de832ed2fbc4e7bfaa30ab5cf0b3417d15f529
@@ -10,5 +10,9 @@ imports:
 - name: github.com/gorilla/mux
   version: 392c28fe23e1c45ddba891b0320b3b5df220beea
 - name: github.com/hyperdriven/hyperdrive
-  version: 2f37838eec608d2a4b4896eeafdf9961ad9fce3b
+  version: 905d4415391ed14851b6042c21397689068491a8
+- name: github.com/Masterminds/semver
+  version: 59c29afe1a994eacb71c833025ca7acf874bb1da
+- name: github.com/metal3d/go-slugify
+  version: 7ac2014b2f23e254684c08d597496681d12c6a8a
 testImports: []

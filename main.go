@@ -16,7 +16,7 @@ func (e *ExampleEndpoint) Get(rw http.ResponseWriter, r *http.Request) {
 	return
 }
 
-var Example = &ExampleEndpoint{hyperdrive.Endpoint{"Example Endpoint", "Example Endpoint, written with hyperdriven/hyperdrive", "/example"}}
+var Example = &ExampleEndpoint{*hyperdrive.NewEndpoint("Example Endpoint", "Example Endpoint, written with hyperdriven/hyperdrive", "/example", "1")}
 
 type PanicEndpoint struct {
 	hyperdrive.Endpoint
@@ -27,7 +27,7 @@ func (e *PanicEndpoint) Get(rw http.ResponseWriter, r *http.Request) {
 	return
 }
 
-var PanicExample = &PanicEndpoint{hyperdrive.Endpoint{"Panic Endpoint", "This example tests panic recovery.", "/panic"}}
+var PanicExample = &PanicEndpoint{*hyperdrive.NewEndpoint("Panic Endpoint", "This example tests panic recovery.", "/panic", "1")}
 
 func main() {
 	api := hyperdrive.NewAPI("Example API", "Example API Description")
